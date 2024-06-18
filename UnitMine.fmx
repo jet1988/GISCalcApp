@@ -1,0 +1,291 @@
+object FormMine: TFormMine
+  Left = 0
+  Top = 0
+  Caption = #1043#1048#1057
+  ClientHeight = 151
+  ClientWidth = 681
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label2: TLabel
+    StyledSettings = [Size, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Noto Sans'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Trailing
+    Text = #1064#1048#1056#1054#1058#1040
+  end
+  object Label3: TLabel
+    StyledSettings = [Size, FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Noto Sans'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Trailing
+    Text = #1044#1054#1051#1043#1054#1058#1040
+  end
+  object Panel1: TPanel
+    Position.X = 80.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      StyledSettings = [Size, Style, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Noto Sans'
+      Text = #1044#1077#1089#1103#1090#1080#1095#1085#1099#1077
+    end
+    object SpinBoxYDec: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Cursor = crIBeam
+      DecimalDigits = 8
+      Min = -90.099999999999990000
+      Max = 90.099999999999990000
+      Value = 58.603581000000000000
+      ValueType = Float
+      KeyboardType = NumbersAndPunctuation
+      Position.X = 8.000000000000000000
+      Position.Y = 32.000000000000000000
+      TextSettings.Font.Family = 'Noto Sans'
+      Size.Width = 145.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+      OnChange = SpinBoxYDecChange
+    end
+    object SpinBoxXDec: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Cursor = crIBeam
+      DecimalDigits = 8
+      Min = -180.000000000000000000
+      Max = 180.000000000000000000
+      Value = 49.668023000000000000
+      ValueType = Float
+      KeyboardType = NumbersAndPunctuation
+      Position.X = 8.000000000000000000
+      Position.Y = 64.000000000000000000
+      TextSettings.Font.Family = 'Noto Sans'
+      Size.Width = 145.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+      OnChange = SpinBoxXDecChange
+    end
+  end
+  object Panel2: TPanel
+    Position.X = 248.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label4: TLabel
+      StyledSettings = [Size, Style, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 281.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Noto Sans'
+      Text = #1043#1088#1072#1076#1091#1089#1099'                '#1052#1080#1085#1091#1090#1099'              '#1057#1077#1082#1091#1085#1076#1099
+    end
+    object SpinBoxYGr: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Cursor = crIBeam
+      DecimalDigits = 10
+      Min = -90.000000000000000000
+      Max = 90.000000000000000000
+      Value = 58.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 32.000000000000000000
+      TextSettings.Font.Family = 'Noto Sans'
+      Size.Width = 89.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+      OnChange = SpinBoxYGrChange
+    end
+    object SpinBoxXGr: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Cursor = crIBeam
+      DecimalDigits = 10
+      Min = -180.000000000000000000
+      Max = 180.000000000000000000
+      Value = 49.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 64.000000000000000000
+      TextSettings.Font.Family = 'Noto Sans'
+      Size.Width = 89.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+      OnChange = SpinBoxXGrChange
+    end
+    object SpinBoxYMin: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Cursor = crIBeam
+      DecimalDigits = 10
+      Max = 60.000000000000000000
+      Value = 36.000000000000000000
+      Position.X = 104.000000000000000000
+      Position.Y = 32.000000000000000000
+      TextSettings.Font.Family = 'Noto Sans'
+      Size.Width = 81.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+      OnChange = SpinBoxYMinChange
+    end
+    object SpinBoxXMin: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 4
+      Cursor = crIBeam
+      DecimalDigits = 10
+      Max = 60.000000000000000000
+      Value = 40.000000000000000000
+      Position.X = 104.000000000000000000
+      Position.Y = 64.000000000000000000
+      TextSettings.Font.Family = 'Noto Sans'
+      Size.Width = 81.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+      OnChange = SpinBoxXMinChange
+    end
+    object SpinBoxYSec: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      Cursor = crIBeam
+      Max = 60.000000000000000000
+      Value = 13.000000000000000000
+      ValueType = Float
+      KeyboardType = NumbersAndPunctuation
+      Position.X = 192.000000000000000000
+      Position.Y = 32.000000000000000000
+      TextSettings.Font.Family = 'Noto Sans'
+      Size.Width = 97.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+      OnChange = SpinBoxYSecChange
+    end
+    object SpinBoxXSec: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 5
+      Cursor = crIBeam
+      Max = 60.000000000000000000
+      Value = 5.000000000000000000
+      ValueType = Float
+      KeyboardType = NumbersAndPunctuation
+      Position.X = 192.000000000000000000
+      Position.Y = 64.000000000000000000
+      TextSettings.Font.Family = 'Noto Sans'
+      Size.Width = 97.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+      OnChange = SpinBoxXSecChange
+    end
+  end
+  object Panel3: TPanel
+    Position.X = 584.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object EditY: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Text = '58'#176'36'#8242'13'#8243'N'
+      TextSettings.Font.Family = 'Noto Sans'
+      Position.X = 5.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 76.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+    end
+    object EditX: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Text = '49'#176'40'#8242'5'#8243'E'
+      TextSettings.Font.Family = 'Noto Sans'
+      Position.X = 5.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 76.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+    end
+  end
+  object BtnY: TButton
+    Position.X = 552.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'N'
+    OnClick = BtnYClick
+  end
+  object BtnX: TButton
+    Position.X = 552.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'E'
+    OnClick = BtnXClick
+  end
+  object BtnYa: TButton
+    Hint = #1054#1090#1082#1088#1099#1090#1100' '#1074' '#1071#1085#1076#1077#1082#1089'.'#1050#1072#1088#1090#1099
+    Position.X = 464.000000000000000000
+    Position.Y = 120.000000000000000000
+    TabOrder = 6
+    Text = #1071#1085#1076#1077#1082#1089
+    ParentShowHint = False
+    ShowHint = True
+    OnClick = BtnYaClick
+  end
+  object BtnG: TButton
+    Hint = #1054#1090#1082#1088#1099#1090#1100' '#1074' Google.Maps'
+    Position.X = 368.000000000000000000
+    Position.Y = 120.000000000000000000
+    TabOrder = 5
+    Text = 'Google'
+    ParentShowHint = False
+    ShowHint = True
+    OnClick = BtnGClick
+  end
+  object CheckStayOnTop: TCheckBox
+    Position.X = 8.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = #1055#1086#1074#1077#1088#1093' '#1074#1089#1077#1093' '#1086#1082#1086#1085
+    OnChange = CheckStayOnTopChange
+  end
+end

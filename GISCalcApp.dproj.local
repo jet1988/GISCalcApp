@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.650,E:\gr\_Delphi\GisCalcApp\UnitMine.fmx=E:\gr\_Delphi\GisCalcApp\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.445,=D:\igorkon\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.321,=D:\igorkon\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.734,=D:\igorkon\Projects\Project2.html</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.872,=D:\igorkon\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.171,D:\igorkon\Projects\Unit3.pas=E:\gr\_Delphi\GisCalcApp\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.171,D:\igorkon\Projects\Unit3.fmx=E:\gr\_Delphi\GisCalcApp\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.650,E:\gr\_Delphi\GisCalcApp\UnitMine.pas=E:\gr\_Delphi\GisCalcApp\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.787,D:\igorkon\Projects\Project2.dproj=E:\gr\_Delphi\GisCalcApp\GISCalcApp.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.794,=D:\igorkon\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.450,=D:\igorkon\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.729,=D:\igorkon\Projects\Unit2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

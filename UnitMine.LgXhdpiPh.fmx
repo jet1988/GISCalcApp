@@ -1,0 +1,57 @@
+inherited FormMine_LgXhdpiPh: TFormMine_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Label2: TLabel
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Label3: TLabel
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Panel1: TPanel
+    inherited Label1: TLabel
+      TabOrder = 3
+    end
+    inherited SpinBoxYDec: TSpinBox
+      TabOrder = 2
+      Size.Height = 32.000000000000000000
+    end
+    inherited SpinBoxXDec: TSpinBox
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited Panel2: TPanel
+    inherited SpinBoxYGr: TSpinBox
+      Size.Height = 32.000000000000000000
+    end
+    inherited SpinBoxXGr: TSpinBox
+      Size.Height = 32.000000000000000000
+    end
+    inherited SpinBoxYMin: TSpinBox
+      TabOrder = 3
+      Size.Height = 32.000000000000000000
+    end
+    inherited SpinBoxXMin: TSpinBox
+      Size.Height = 32.000000000000000000
+    end
+    inherited SpinBoxYSec: TSpinBox
+      TabOrder = 4
+      Size.Height = 32.000000000000000000
+    end
+    inherited SpinBoxXSec: TSpinBox
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited Panel3: TPanel
+    inherited EditY: TEdit
+      Size.Height = 32.000000000000000000
+    end
+    inherited EditX: TEdit
+      Size.Height = 32.000000000000000000
+    end
+  end
+end
